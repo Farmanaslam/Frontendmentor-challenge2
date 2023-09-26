@@ -64,7 +64,6 @@ img {
   border-style: none;
   font-family: "Lexend Deca", sans-serif;
 
-  color: var(--bright-orange);
   cursor: pointer;
 }
 
@@ -85,6 +84,15 @@ img {
 .col3 {
   background-color: var(--very-dark-cyan);
 }
+.col1 > button {
+  color: var(--bright-orange);
+}
+.col2 > button {
+  color: var(--dark-cyan);
+}
+.col3 > button {
+  color: var(--very-dark-cyan);
+}
 
 @media screen and (max-width: 600px) {
   :root {
@@ -98,18 +106,5 @@ img {
     display: block;
     margin-top: 32px;
     margin-bottom: 15px;
-  }
-
-  .col1 > button {
-    margin-top: 2px;
-    margin-bottom: 5px;
-  }
-  .col2 > button {
-    margin-top: 2px;
-    margin-bottom: 5px;
-  }
-  .col3 > button {
-    margin-top: 2px;
-    margin-bottom: 5px;
   }
 }
